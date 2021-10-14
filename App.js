@@ -16,10 +16,8 @@ const App=() => {
   return (
  <NavigationContainer>
    <Stack.Navigator initialRouteName="Search">
-     {/* <Stack.Screen name="Search" component={SearchScreen}/> */}
-     <Stack.Screen name="Search" component={SectionPractice}/>
-
-     {/* <Stack.Screen name="ResultShow" component={ResultShowScreen}/> */}
+     <Stack.Screen name="Search" component={SearchScreen}/>
+     <Stack.Screen name="ResultShow" component={ResultShowScreen}/>
    </Stack.Navigator>
  </NavigationContainer>
   );
